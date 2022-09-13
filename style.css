@@ -1,0 +1,222 @@
+body{
+    background-color: hsl(0, 0%, 98%);
+}
+
+.button{
+    margin-right: 10px;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    color: hsl(273, 4%, 51%);
+    padding: 10px 20px 10px 20px;
+    text-transform: uppercase;
+    font-family: 'Karla',sans-serif!important;
+    font-weight: 700;
+}
+.button2{
+    margin-right: 10px;
+    background-color: transparent;
+    padding: 10px 20px 10px 20px;
+    text-transform: uppercase;
+    font-family: 'Karla',sans-serif!important;
+    font-weight: 700;
+    border: solid 1px hsl(256, 26%, 20%);
+    text-decoration: none;
+    color: hsl(256, 26%, 20%);
+    border: 2px solid;
+}
+.button3{
+    background-color: transparent;
+    padding: 12px 35px 12px 35px;
+    text-transform: uppercase;
+    font-family: 'Karla',sans-serif!important;
+    font-weight: 700;
+    border: solid 1px hsl(0, 0%, 98%);;
+    text-decoration: none;
+    color: hsl(0, 0%, 98%);
+    border: 2px solid;
+}
+.button:hover{
+    color: hsl(256, 26%, 20%);
+    text-decoration: none;
+    cursor: pointer;
+}
+.button2:hover{
+    background-color: hsl(256, 26%, 20%);
+    color: hsl(0, 0%, 98%);
+    text-decoration: none;
+    cursor: pointer;
+}
+.button3:hover{
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(256, 26%, 20%);
+    text-decoration: none;
+    cursor: pointer;
+}
+.hr1{
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+    width: 160px;
+    float: left;
+}
+.hr2{
+    margin-top: 0px!important;
+    margin-bottom: 0;
+    width: 160px;
+    float: left;
+    border-color:hsl(256, 26%, 20%);
+}
+h1{
+    padding: 30px 0 10px 0;
+    font-family: 'DM Serif Display',serif!important;
+    font-weight: 400;
+    font-size: 75px!important;
+}
+h2{
+    font-family: 'DM Serif Display',serif!important;
+}
+p{
+    font-family: 'Karla',sans-serif!important;
+    font-weight: 400;
+    font-size: 16px!important;
+    color: hsl(0, 0%, 98%);
+    padding: 0 0 40px 0;
+}
+.navbar{
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(270, 9%, 17%);
+    padding: 25px 160px 25px 160px;
+    position: absolute;
+    z-index: 2;
+}
+.header{
+    background-color: hsl(256, 26%, 20%);
+    color: hsl(0, 0%, 98%);
+    height: 600px;
+    margin-top: -25px;
+}
+.navbar-buttons{
+    float: right;
+}
+.row{
+    padding-top: 100px;
+}
+.svg-left{
+    margin-top: 425px;
+    position: absolute;
+    z-index: 1;
+}
+.svg-right{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+}
+.svg-body{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+}
+.svg-footer{
+    position: absolute;
+    z-index: 1;
+}
+.body{
+    margin: 300px 150px 150px 150px;
+}
+.body-h1{
+    padding: 60px 0 0 0;
+    font-family: 'DM Serif Display',serif!important;
+    font-weight: 400;
+    font-size: 75px!important;
+}
+.body-p{
+    font-family: 'Karla',sans-serif!important;
+    font-weight: 400;
+    font-size: 16px!important;
+    color: hsl(273, 4%, 51%);
+    margin-top: 20px;
+}
+.purple-box{
+    position: relative;
+    margin: auto;
+    width: 1150px;
+    height: 250px;
+    background-color: hsl(256, 26%, 20%);
+    color: hsl(0, 0%, 98%);
+}
+.purple-box h1{
+    font-family: 'DM Serif Display',serif!important;
+    font-size: 60px!important;
+    position: absolute;
+    top: 4%;
+    left: 7%;
+}
+.purple-box .button3{
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    right: 5%;
+}
+.footer{
+    background-color: hsl(0, 0%, 98%);
+    height: 400px;
+    margin-top: 150px;
+}
+.social{
+    float: right;
+}
+.svg-footer{
+    position: absolute;
+    z-index: 1;
+}
+.logo{
+    float: left;
+    position: absolute;
+    z-index: 3;
+    left: 11%;
+    margin-top: 65px;
+}
+.social{
+    position: absolute;
+    right: 10%;
+    margin-top: 65px;
+}
+.social svg{
+    margin-right: 15px;
+}
+.social svg:hover path{
+    fill: hsl(256, 26%, 20%);
+    cursor: pointer;
+}
+.footer hr{
+    margin-top: 120px;
+}
+.footer .row{
+    padding-top: 2%;
+}
+.col-md-3{
+    position: absolute;
+    z-index: 3;
+}
+.col-md-3 h5{
+    font-family: 'Karla',sans-serif!important;
+    font-weight: 700;
+    color: hsl(273, 4%, 51%);
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.col-md-3 a{
+    font-family: 'Karla',sans-serif!important;
+    font-weight: 700;
+    color: hsl(256, 26%, 20%);
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.col-md-3 a:hover{
+    text-decoration: underline;
+    color: hsl(256, 26%, 20%);
+}
